@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Practice">
+
+  <test thread-count="5" name="Test">
+ 	 <groups>
+  		<run>
+  			<include name="rr"></include>
+  		</run>
+  	</groups>
+  <classes>
+  		<class name="TestNG.login"/>
+  </classes>
+ </test> 
+
+  
+ 
+ 
+  <test thread-count="5" name="carloan">
+  <classes>
+  <class name="TestNG.test2">
+  <methods>
+  <exclude name="carLoan"></exclude>
+  </methods>
+  </class>
+  </classes>
+  </test>
+  
+  
+  <test name="Welcome">
+  <classes>
+ 
+ <class name="TestNG.Test1231231">
+ 
+ 	<methods>
+ 	<exclude name="Welcome22"></exclude>
+ 	</methods>
+ </class>
+   </classes>
+  </test>
+</suite> 

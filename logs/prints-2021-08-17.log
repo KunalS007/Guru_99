@@ -1,0 +1,9 @@
+10:03:39.429 [main] INFO  TestNG.Log4j_ - Object is present
+10:03:39.512 [main] ERROR TestNG.Log4j_ - Object is not present
+10:03:39.513 [main] FATAL TestNG.Log4j_ - This is fatal
+17:11:32.216 [main] DEBUG TestNG.Log4j_ - I am Debugging
+17:11:32.224 [main] INFO  TestNG.Log4j_ - Object is present
+17:11:32.225 [main] ERROR TestNG.Log4j_ - Object is not present
+17:11:32.226 [main] FATAL TestNG.Log4j_ - This is fatal
+23:32:09.682 [main] DEBUG TestNG.Log4j_ - I am Debugging
+23:32:09.690 [main] INFO  TestNG.Log4j_ - Object is present

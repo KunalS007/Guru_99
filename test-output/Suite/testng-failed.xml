@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="10" parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="10" parallel="tests" name="Test(failed)">
+    <parameter name="URL" value="https://www.spicejet.com/"/>
+    <classes>
+      <class name="JAVAStream.Practice_Set">
+        <methods>
+          <include name="Static_Drop_Down" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- JAVAStream.Practice_Set -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
